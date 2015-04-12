@@ -42,7 +42,9 @@ var CONFIG = module.exports = function() {
     externals: {},
 
     module: {
-      loaders: []
+      loaders: [
+        {test: /\.(js|jsx)/, loaders: ['babel?stage=1&optional=runtime'], exclude:[/node_modules/]}
+      ]
     },
 
     devtool: "source-map",
