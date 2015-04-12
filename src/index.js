@@ -1,5 +1,3 @@
-import 'meteor';
-
 import Router from 'react-router';
 var {Route, RouteHandler, NotFoundRoute, DefaultRoute} = Router;
 

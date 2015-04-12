@@ -20,7 +20,7 @@ var app = new WebpackDevServer(webpack(webpackConfig), {
     watchDelay: 300,
     // delay after change (only lazy: false)
 
-    // publicPath: "./build",
+    // publicPath: "/.assets",
     // public path to bind the middleware to
     // use the same as in webpack
 

@@ -1,4 +1,4 @@
-import {usersQuery} from 'meteor';
+import {usersQuery} from 'collections';
 
 class AsteroidTest extends React.Component {
 

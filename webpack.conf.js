@@ -51,7 +51,7 @@ var CONFIG = module.exports = function() {
 
     plugins: [
       new HtmlWebpackPlugin({
-        template: './assets/index.html'
+        template: './assets/web/index.html'
       }),
       new CommonsChunkPlugin("vendor.js"),
       new webpack.HotModuleReplacementPlugin()
