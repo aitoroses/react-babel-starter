@@ -1,11 +1,17 @@
 import Router from 'react-router';
 var {Route, RouteHandler, NotFoundRoute, DefaultRoute} = Router;
 
-import {App, AsteroidTest} from 'components';
+import {
+  App,
+  AsteroidTest,
+  TrackerTest
+} from 'components';
 
 var routes = (
   <Route handler={App} path="/">
     <DefaultRoute handler={AsteroidTest}/>
+    <Route name="asteroid" path="asteroid" handler={AsteroidTest}/>
+    <Route name="tracker" path="tracker" handler={TrackerTest}/>
   </Route>
 )
 
