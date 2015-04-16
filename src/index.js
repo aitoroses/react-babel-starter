@@ -4,7 +4,8 @@ var {Route, RouteHandler, NotFoundRoute, DefaultRoute} = Router;
 import {
   App,
   AsteroidTest,
-  TrackerTest
+  TrackerTest,
+  TesselTest
 } from 'components';
 
 var routes = (
@@ -12,6 +13,7 @@ var routes = (
     <DefaultRoute handler={AsteroidTest}/>
     <Route name="asteroid" path="asteroid" handler={AsteroidTest}/>
     <Route name="tracker" path="tracker" handler={TrackerTest}/>
+    <Route name="tessel" path="tessel" handler={TesselTest}/>
   </Route>
 )
 

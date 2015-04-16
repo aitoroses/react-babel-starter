@@ -43,7 +43,7 @@ var CONFIG = module.exports = function() {
 
     module: {
       loaders: [
-        {test: /\.(js|jsx)/, loaders: ['babel?stage=1&optional=runtime'], exclude:[/node_modules/]}
+        {test: /\.(js|jsx)/, loaders: ['babel?stage=0&optional=runtime'], exclude:[/node_modules/]}
       ]
     },
 
